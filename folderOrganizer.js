@@ -77,7 +77,6 @@ var scanAndMove = function() {
                         moveFile(k, "/images/");
                         res--;
                     }
-                    if(i === res.length - 1){}
 
                 });
 
