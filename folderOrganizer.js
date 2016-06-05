@@ -24,7 +24,7 @@ var scanAndMove = function() {
         var predicate = function(subject, matcher){
             return (subject.indexOf(matcher) > -1);
         };
-        return checkIfNameContainsElement(fileName, ['.png', '.jpg', '.jpeg', 'bmp'], predicate);
+        return checkIfNameContainsElement(fileName, ['.png', '.jpg', '.jpeg', '.bmp'], predicate);
     };
 
 
